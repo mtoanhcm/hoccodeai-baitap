@@ -6,7 +6,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://api.openai.com/v1",
-    api_key="API_KEY_HERE"
+    api_key=""
     )
 
 limit_message_amount = 10

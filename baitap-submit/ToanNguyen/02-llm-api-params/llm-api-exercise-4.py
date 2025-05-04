@@ -12,7 +12,7 @@ RESET = "\033[0m"
 
 client = OpenAI(
     base_url="https://api.openai.com/v1",
-    api_key="API_KEY_HERE"
+    api_key=""
     )
 
 def process_text_file(file_path):

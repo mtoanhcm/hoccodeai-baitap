@@ -8,7 +8,7 @@ import openai
 max_website_paragraph_character = 10000
 client = OpenAI(
     base_url="https://api.openai.com/v1",
-    api_key="API_KEY_HERE"
+    api_key=""
     )
 
 def get_website_info(url, target_class):
